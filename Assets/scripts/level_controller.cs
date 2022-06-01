@@ -43,7 +43,7 @@ public class level_controller : MonoBehaviour
         {
             level++;
             enemyControl.LevelUp();
-            coin.coinPaid();
+            coin.CoinPaid();
         }
         
     }

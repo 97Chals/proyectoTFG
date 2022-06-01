@@ -15,12 +15,12 @@ public class coin_controller : MonoBehaviour
         COINS_TO_PAY = 100;
     }
 
-    public void coinGain()
+    public void CoinGain()
     {
         coins += (100 + rdom.Next(lvl.level ));
     }
 
-    public void coinPaid()
+    public void CoinPaid()
     {
         if (lvl.level == 1)
         {
